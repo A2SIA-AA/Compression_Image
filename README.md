@@ -41,9 +41,9 @@ python main.py
 
 | Image                | k   | Facteur F | Erreur ‖·‖<sub>F</sub> | Aperçu                       |
 | -------------------- | --- | --------- | ---------------------- | ---------------------------- |
-| Lena (512×512)       | 100 | 2.54✕     | 4.7 e-2                | ![lena](docs/lena100.png)    |
-| Mandrill (512², RGB) | 120 | 4.3✕      | 5.3 e-2                | ![mandrill](docs/man120.png) |
-| Tigre (441×660, RGB) | 150 | 6.1✕      | 6.8 e-2                | ![tigre](docs/tigre150.png)  |
+| Lena (512×512)       | 100 | 2.54✕     | 4.7 e-2                | ![lena](lena512.bmp)    |
+| Mandrill (512², RGB) | 120 | 4.3✕      | 5.3 e-2                | ![mandrill](mandrill.bmp) |
+| Tigre (441×660, RGB) | 150 | 6.1✕      | 6.8 e-2                | ![tigre](tigre.bmp)  |
 
 > On retrouve la chute rapide de l’erreur jusqu’à \~ k = 20 % du rang, puis un palier.
 > Au-delà de la borne théorique k\* ≈ mn / (m+n+1), les arrondis flottants dégradent parfois l’image (pics d’erreur).
@@ -68,4 +68,3 @@ python main.py
 
 > *« Réduire les octets, garder l’essentiel » – la magie de la SVD.*
 
-```
