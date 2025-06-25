@@ -12,7 +12,7 @@ Application de la **décomposition en valeurs singulières (SVD)** pour la rédu
 |---------------------------------|-----------------------------------------------------------------|
 | `algo.py`                       | Fonctions **puissance itérée**, **déflation** & **SVD maison**  |
 | `main.py`                       | Script CLI : charge une image, choisit *k*, enregistre la sortie |
-| `images/`                       | Jeux d’essai : `lena512.png`, `mandrill.png`, `tigre.jpg`        |
+| `images`                       | Jeux d’essai : `lena512.png`, `mandrill.png`, `tigre.jpg`        |
 | `report_SVD_Compression.pdf`    | Mémoire complet (21 pages)                                      |
 | `README.md`                     | *vous y êtes*                                                   |
 
