@@ -1,4 +1,4 @@
-#SVD-Image-Compression  
+# SVD-Image-Compression  
 Application de la **décomposition en valeurs singulières (SVD)** pour la réduction de taille d’images.
 
 > *Projet d’Analyse Numérique – GM3*  
